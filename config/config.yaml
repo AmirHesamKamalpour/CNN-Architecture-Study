@@ -1,0 +1,23 @@
+data:
+  mnist_path: data/dataset/mnist.pkl.gz
+  num_workers: 0
+
+model:
+  name: residual        # residual, inception, resnext, or custom
+  num_classes: 10
+  dropout: 0.05
+  custom_dropout: 0.20
+  groups: 4             # used by the ResNeXt model
+
+training:
+  seed: 9
+  batch_size: 128
+  epochs: 15
+  lr: 0.001
+  weight_decay: 0.0001
+  grad_clip: null
+  scheduler_patience: 2
+  early_stopping_patience: null
+
+outputs:
+  checkpoint_dir: models/saved_models

@@ -1,0 +1,5 @@
+model,parameters,best_epoch,best_valid_loss,test_loss,test_acc,checkpoint_filename
+MNISTResInception,739370,14,0.018262484002137352,0.013011724484414481,0.9962,mnist_res_inception_best.pt
+TableResidualNet,1801706,15,0.017946058486189576,0.014227237582352245,0.996,table_residual_net_best.pt
+TableResNeXtNet,457450,15,0.01893287564743041,0.016077011126329307,0.9954,table_resnext_net_best.pt
+TableInceptionNet,541450,14,0.01989998083970859,0.01934257019357174,0.9949,table_inception_net_best.pt

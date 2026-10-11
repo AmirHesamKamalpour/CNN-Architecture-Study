@@ -1,0 +1,2 @@
+pretrained_checkpoint_filename,fine_tuned_checkpoint_filename,best_epoch,best_valid_loss,test_loss,test_acc
+table_residual_net_best.pt,fashion_head_only_best.pt,30,0.6014356776237488,0.6022999985694886,0.7886
